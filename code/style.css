@@ -19,7 +19,8 @@ li {
     }
 
         li a:hover:not(.active) {
-            background-color: #000000;
+            background-color: #1464f6;
+            color: white;
         }
 
 .active {
@@ -46,13 +47,16 @@ table {
     width: 200px;
     height: 150px;
 }
+#footer {
+    border-bottom: 1px solid #ddd;
+}
 
 i {
     padding: 1px 10px 1px 10px;
 }
 
 .button {
-    border: 2px solid #ffffff;
+    border: 2px solid transparent;
     text-align: center
 }
 
@@ -86,9 +90,26 @@ button {
     border-radius: 12px;
 }
 
+.footer {
+    vertical-align: top;
+    text-align: left;
+    padding: 3px;
+    background-color: #518fff;
+    color: white;
+    border: 2px solid transparent;
+}
 footer {
     text-align: left;
     padding: 3px;
     background-color: #518fff;
     color: white;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: black;
+    }
