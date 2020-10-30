@@ -1,27 +1,38 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar {
+    margin-bottom: 0;
     background-color: #518fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Helvetica;
 }
 
-li {
-    float: left;
-}
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+    .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
     }
 
-        li a:hover:not(.active) {
-            background-color: #1464f6;
-            color: white;
-        }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #a8c6fa !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+#navbar {
+    background-color: #518fff;
+    color: white;
+}
+
+#title {
+    padding: 14px 16px;
+}
 
 .active {
     background-color: #a8c6fa;
@@ -113,3 +124,22 @@ a {
     a:hover {
         color: black;
     }
+
+
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+hr{
+    border-top: 1px solid #a8c6fa;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #a8c6fa;
+}
