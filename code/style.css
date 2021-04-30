@@ -453,3 +453,8 @@ p {
         top: -100px;
         left: -500px; /*position where enlarged image should offset horizontally */
     }
+
+    #map {
+        height: 25%;
+      }
+      
